@@ -3,8 +3,11 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <link href="css/introHCI.css" rel="stylesheet">
   <title>HCI Project Portfolio</title>
 </head>
+
+<!-- put your styling stuff inside .project -->
 
 <body>
   <!-- this is a comment in HTML -->
@@ -13,13 +16,74 @@
 
   <!-- p means paragraph -->
   <p>Brianna Fredeluces is a third year Cognitive Science major with a  Specialization in Design and Interaction at UC San Diego.</p>
+  <div class="image">
+    	<img class="my_face" id="myface" src="images/my_face.jpeg" alt="my face">
+    	<img class="my_face2" id="myface2" src="images/my_face2.jpeg" alt="my face 2">
+  </div>
 
-  <h4>Projects</h4>
-  <ol>
-    <li>Waiting in line</li>
-    <li>Needfinding</li>
-    <li>Prototyping</li>
-    <li>...</li>
-  </ol>
+	<div>
+		<!-- h1 through h6 are headers. The higher the number, the smaller the header -->
+		<!-- p means paragraph -->
+		<h4>Projects</h4>
+		<!-- divs are invisible structuring elements that stack vertically by default. Use them to organize your code -->
+		<!-- img tags are images. Lorem Pixel will deliver random images; handy! -->
+		<!-- a are anchors, also known as hyperlinks. Use the href attribute to tell the browser where to go when the user clicks -->
+		<div class="project" id="project1">
+			<h5>Project 1</h5>
+			<a href="project.html">
+				<img src="images/mountain.jpeg" alt="Mountain image">
+				<p>Waiting in Line</p>
+			</a>
+		</div>
+		<div class="project" id="project2">
+			<h5>Project 2</h5>
+			<a href="project.html">
+				<img src="images/mountain2.jpeg" alt="Mountain2 image" width="30%">
+				<p>Needfinding</p>
+			</a>
+		</div>
+		<div class="project" id="project3">
+			<h5>Project 3</h5>
+			<a href="project.html">
+				<img src="images/japan_city.jpeg" alt="Japan city image">
+				<p>Prototyping</p>
+			</a>
+		</div>
+		<div class="project" id="project4">
+			<h5>Project 4</h5>
+			<a href="project.html">
+				<img src="images/city_aesthetic.jpeg" alt="City image">
+				<p>Heuristic Evaluation</p>
+			</a>
+		</div>
+		<div id="project" id="project5">
+			<h5>Project 5</h5>
+			<a href="project.html">
+				<img src="images/sakura.jpeg" alt="Sakura image">
+				<p>Visualization</p>
+			</a>
+		</div>
+		<div id="project" id="project6">
+			<h5>Project 6</h5>
+			<a href="project.html">
+				<img src="images/flowers_closeup.jpeg" alt="Flowers image">
+				<p>Social design</p>
+			</a>
+		</div>
+		<div id="project" id="project7">
+			<h5>Project 7</h5>
+			<a href="project.html">
+				<img src="images/ramen.jpeg" alt="Ramen image">
+				<p>Gestural interaction</p>
+			</a>
+		</div>
+		<div id="project" id="project8">
+			<h5>Project 8</h5>
+			<a href="project.html">
+				<img src="images/sushi.jpeg" alt="Sushi image">
+				<p>Design tools</p>
+			</a>
+		</div>
+	</div>
 </body>
 </html>

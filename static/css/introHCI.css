@@ -9,6 +9,23 @@
 	color: #CC00AA;
 }
 
+.project {
+     margin-left: 20px;
+}
+
+.image {
+     margin-left: 20px;
+}
+
+.my_face {
+     display: inline-block;
+     width: 20%;
+}
+
+.my_face2 {
+     display: inline-block;
+     width: 45%;
+}
 /* this style exists to make it obvious that you've successfully linked
    the CSS to the page. feel free to remove it once the link is working. */
 body {
